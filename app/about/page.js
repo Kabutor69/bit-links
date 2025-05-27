@@ -12,7 +12,7 @@ export default function About() {
     <main className=" bg-gradient-to-r from-purple-100 to-pink-100 mb-4 min-h-screen">
       {/* Hero Section */}
       <section className="container mx-auto py-20 px-6 text-center">
-        <h1 className={`text-5xl font-bold ${poppins.className} text-purple-800 leading-tight`}>
+        <h1 className={'text-5xl font-bold ${poppins.className} text-purple-800 leading-tight'}>
           About <span className="text-pink-600">BitLinks</span>
         </h1>
         <p className="mt-6 text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
@@ -22,7 +22,7 @@ export default function About() {
 
       {/* Masquad Section */}
       <section className="container mx-auto px-6 py-16 bg-white rounded-xl shadow-lg">
-        <h2 className={`text-3xl font-bold ${poppins.className} text-purple-800 text-center mb-6`}>
+        <h2 className={'text-3xl font-bold ${poppins.className} text-purple-800 text-center mb-6'}>
           Our Mission
         </h2>
         <p className="text-lg text-gray-700 max-w-2xl mx-auto leading-relaxed text-center">
@@ -32,7 +32,7 @@ export default function About() {
 
       {/* Why Choose Us Section */}
       <section className="container mx-auto px-6 py-16">
-        <h2 className={`text-3xl font-bold ${poppins.className} text-center text-purple-800 mb-12`}>
+        <h2 className={'text-3xl font-bold ${poppins.className} text-center text-purple-800 mb-12'}>
           Why Choose BitLinks?
         </h2>
         <div className="grid md:grid-cols-3 gap-8">
@@ -63,7 +63,7 @@ export default function About() {
       {/* Contact Us Section */}
       <section className="container mx-auto px-6 py-16 bg-purple-800 text-white rounded-xl shadow-lg">
         <div className="text-center">
-          <h2 className={`text-3xl font-bold ${poppins.className} mb-4`}>
+          <h2 className={'text-3xl font-bold ${poppins.className} mb-4'}>
             Get in Touch
           </h2>
           <p className="text-lg text-purple-100 leading-relaxed mb-6">
