@@ -11,7 +11,7 @@ export default function Pricing() {
     <main className="bg-gradient-to-r from-purple-100 to-pink-100 min-h-screen">
       {/* Header */}
       <section className="container mx-auto px-6 pt-20 pb-12 text-center">
-        <h1 className={`text-5xl font-bold ${poppins.className} text-purple-800 mb-6`}>
+        <h1 className={'text-5xl font-bold ${poppins.className} text-purple-800 mb-6'}>
           Simple, Transparent <span className="text-pink-600">Pricing</span>
         </h1>
         <p className="text-lg text-gray-700 max-w-2xl mx-auto">
@@ -80,7 +80,7 @@ export default function Pricing() {
 
       {/* */}
       <section className="text-center py-12 px-6 bg-white">
-        <h3 className={`text-2xl font-bold ${poppins.className} text-purple-800 mb-4`}>
+        <h3 className={'text-2xl font-bold ${poppins.className} text-purple-800 mb-4'}>
           Still not sure which plan is right?
         </h3>
         <p className="text-gray-600 mb-6">Reach out and we'll help you choose the perfect plan.</p>
