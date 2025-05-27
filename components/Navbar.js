@@ -36,7 +36,7 @@ const Navbar = () => {
             ["Contact", "/contact"]
           ].map(([label, href]) => (
             <li key={label}>
-              <Link href={href} className={'hover:text-purple-200 transition-colors duration-200 ${isActive(href)}'}>
+              <Link href={href} className={`hover:text-purple-200 transition-colors duration-200 ${isActive(href)}`}>
                 {label}
               </Link>
             </li>
@@ -99,7 +99,7 @@ const Navbar = () => {
               <li key={label}>
                 <Link
                   href={href}
-                  className={'block ${isActive(href)} py-2 px-4 hover:text-purple-200'}
+                  className={`block ${isActive(href)} py-2 px-4 hover:text-purple-200`}
                   onClick={() => setIsOpen(false)} // Close menu on link click
                 >
                   {label}
