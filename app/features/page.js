@@ -12,7 +12,7 @@ export default function Features() {
     <main className="bg-gradient-to-r from-purple-100 to-pink-100 min-h-screen">
       {/* Header Section */}
       <section className="container mx-auto px-6 pt-20 pb-12 text-center">
-        <h1 className={'text-4xl md:text-5xl font-bold ${poppins.className} text-purple-800 mb-6'}>
+        <h1 className={`text-4xl md:text-5xl font-bold ${poppins.className} text-purple-800 mb-6`}>
           Powerful Features for
           <span className="text-pink-600 block">Better Link Management</span>
         </h1>
