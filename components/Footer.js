@@ -16,7 +16,7 @@ const Footer = () => {
           {/* Navbar iniside Footer lol */}
           <div>
             <h3
-              className={'text-xl font-bold ${poppins.className} text-white mb-4'}
+              className={`text-xl font-bold ${poppins.className} text-white mb-4`}
             >
               Quick Links
             </h3>
@@ -67,7 +67,7 @@ const Footer = () => {
           {/* Contact Info */}
           <div>
             <h3
-              className={'text-xl font-bold ${poppins.className} text-white mb-4'}
+              className={`text-xl font-bold ${poppins.className} text-white mb-4`}
             >
               Contact Us
             </h3>
@@ -89,7 +89,7 @@ const Footer = () => {
           {/* Social Media Links nothin in here */}
           <div>
             <h3
-              className={'text-xl font-bold ${poppins.className} text-white mb-4'}
+              className={`text-xl font-bold ${poppins.className} text-white mb-4`}
             >
               Follow Us
             </h3>
