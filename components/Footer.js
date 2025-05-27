@@ -95,7 +95,7 @@ const Footer = () => {
             </h3>
             <div className="flex space-x-6 justify-center md:justify-start">
               <a
-                href="https://github.com/"
+                href="https://github.com/Kabutor69/bit-links"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-purple-200 transition-colors duration-200"
