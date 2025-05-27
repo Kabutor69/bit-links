@@ -15,7 +15,7 @@ export default function Home() {
       <section className="container mx-auto px-6 py-20 flex flex-col lg:flex-row items-center justify-between gap-12">
         <div className="flex-1 text-center lg:text-left">
           <h1
-            className={`text-5xl font-bold ${poppins.className} text-purple-800 leading-tight`}
+            className={'text-5xl font-bold ${poppins.className} text-purple-800 leading-tight'}
           >
             Welcome to <span className="text-pink-600">BitLinks</span>
           </h1>
