@@ -54,7 +54,7 @@ const Navbar = () => {
           {/* GitHub lol Icon */}
           <li>
             <a
-              href="https://github.com/"
+              href="https://github.com/Kabutor69/bit-links"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-purple-200 transition-colors"
