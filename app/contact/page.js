@@ -12,7 +12,7 @@ export default function Contact() {
       <section className="container mx-auto px-6 py-20">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className={`text-5xl font-bold ${poppins.className} text-purple-800 mb-4`}>
+          <h1 className={'text-5xl font-bold ${poppins.className} text-purple-800 mb-4'}>
             Get in Touch
           </h1>
           <p className="text-lg text-gray-700">
